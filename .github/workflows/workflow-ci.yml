@@ -19,4 +19,5 @@ jobs:
       with:
         node-version: 20.
     - run: npm install
+      working-directory: C:\allbooks\allbooks-aula-01
     - run: npm test
